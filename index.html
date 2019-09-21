@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- 
+	Filename: index.html
+    
+    Description: This is the home page for a fictional Vegan restaurant. This is part of the final project for INF-146-001. This will be a responsive website using CSS Grid. 
+    
+    Author: Andrew Duda
+    
+    Date Created: 04-02-19 
+    Date Published : 04-21-19
+-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="food, restaurant, vegan, plant based, beach, bowls, vegan bowls, NJ, New Jersey, Asbury Park, Jersey Shore" />	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Andrew Duda" />
+    <title>JB</title>
+
+    <link href="styles/reset_style.css" rel="stylesheet" />
+
+    <!-- 
+        I used this style sheet to link the default styles for the social media icons
+        these icons can be found on fontawesome.com
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link href="styles/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!--Nav Bar-->
+    <header class="header-container">
+        <div class="logo" >
+            <a href="index.html"> 
+                <img id="logo" src="images/logo.png" alt="logo" />
+            </a>
+        </div>
+        <nav>
+            <input type="checkbox" id="checkbox1" />
+            <label for="checkbox1">
+                <ul class="menu first">
+                    <li>
+                        <a  href="hours.html">Hours and Location</a>
+                    </li>
+                    <li>
+                        <a  href="menu.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="mobile-order-center">
+                        <div class="order-link-container">  
+                            <a class="order-item" href="order.html">
+                                <p>Order</p>         
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <span class="toggle">☰</span>
+            </label>
+        </nav>
+    </header>
+
+    <main>
+        <!--Main Photo Section-->
+        <div class="main-photo">
+            <img src="images/mainPhoto.jpg" alt="Main Photo" title="Photo by Lisa Fotios from Pexels"/>
+        </div>
+
+        <!--About Us Section-->
+        <div class="about-us-section" >
+            <div class="about-us-text">
+                <div class="about-us-flex" >
+                    <h2>About Us</h2>
+                    <p>We are a 100% Vegan lunch spot specializing in delicious bowls. We strive to give our customers the best plant based food we possibly can in hopes of making a difference to not only their health but their life as well. Vegan Power!</p>
+                    <div class="about-us-link-container">
+                        
+                            <a class="about-item" href="about.html" >
+                                    <p>About</p>
+                                
+                            </a>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="about-us-photo">
+                <img id="aboutHome1" src="images/aboutHome1.jpg" alt="home page about photo" title="Photo by Ella Olson" />
+            </div>
+        </div>
+
+        <!--Hours and Location Section-->
+        <div class="hours-and-location-section">
+            <div class="hours-and-location-photo" >
+                <img id="hours" src="images/hours.jpg" alt="photo of restaurant from street" title="Photo by Daria Shevtsova" />
+            </div>
+            <div class="hours-and-location-text" >
+                <div >
+                    <h2 id="hours-title">Hours and Location</h2>
+                    <div class="hours-container">
+                        <ul class="hours">
+                            
+                            <li>Monday    : CLOSED</li>
+                            <li>Tuesday   : 10am - 4pm </li>
+                            <li>Wednesday : 10am - 4pm </li>
+                            <li>Thursday  : 10am - 4pm </li>
+                            <li>Friday    : 10am - 9pm </li>
+                            <li>Saturday  : 10am - 9pm </li>
+                            <li>Sunday    : 10am - 4pm </li>
+                            <li>
+                                <ul class="location" >
+                                    <li><a href="tel:+17325551234" >732-555-1234</a></li>
+                                    <li><a href="#" >1200 Ocean Ave.</a></li>
+                                    <li><a href="#" >Asbury Park, NJ, 07712</a></li>
+                                </ul> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hours-link-container">
+                        
+                            <a class="hours-item" href="hours.html">
+                                    <p>More Info</p>
+                                
+                            </a>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--page break photo-->
+        <div class="page-break-photo" >
+            <img src="images/pageBreakHome.jpg" alt="kiwis" title="Photo by rawpixel.com" />
+        </div>
+
+        <!--menu section-->
+        <div class="menu-section" >
+            <div class="menu-text" >
+                <div class="menu-flex" >
+                    <h2>Menu</h2>
+                    <p>
+                        We have a completely vegan menu that is sure to fill you up but leave you feeling better about yourself. We specialize in bowls and smoothies with only the freshest locally sourced ingredients. 
+                    </p>
+                    <div class="menu-link-container">
+                        
+                            <a class="menu-item" href="menu.html">
+                                    <p>Menu</p>
+                                
+                            </a>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="menu-photo" >
+                <img id="menu" src="images/menuHomeOrder.jpg" alt="menu photo" title="Photo by Ella Olson">
+            </div>
+        </div>
+
+        <!--footer photo-->
+        <div class="footer-photo" >
+            <img src="images/footerAbout1.jpg" alt="footer photo" title="
+            Photo by Pineapple Supply Co. from Pexels
+            ">
+        </div>
+
+    </main>
+    <footer class="footer-container">
+        <!--Social Icons-->
+        <div class="social-icons" >
+            <a id="github-icon" href="https://github.com/STEVEpartyof4" target="_blank" ><i class="fab fa-github-square fa-3x"></i></a>
+            <a id="linkedin-icon" href="https://www.linkedin.com/in/andrew-duda-7a4153149/" target="_blank" ><i class="fab fa-linkedin fa-3x"></i></a>
+            <a id="twitter-icon" href="https://twitter.com/STEVEpartyof4" target="_blank"> <i class="fab fa-twitter-square fa-3x"></i></a>
+        </div>
+
+        <!--Location and Phone Number-->
+        <div class="footer-info" >
+            <ul>
+                <li><a class="footer-location" href="#" >1200 Ocean Ave. Asbury Park</a></li>
+                <li><a href="tel:+17325551234" >732-555-1234</a></li>
+            </ul>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

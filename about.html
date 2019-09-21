@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+	Filename: about.html
+    
+    Description: This is the home page for a fictional Vegan restaurant. This is part of the final project for INF-146-001. This will be a responsive website using CSS Grid. 
+    
+    Author: Andrew Duda
+    
+    Date Created: 04-02-19 
+    Date Published : 04-21-19
+-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    
+    <link href="styles/reset_style.css" rel="stylesheet" />
+    
+    <!-- 
+        I used this style sheet to link the default styles for the social media icons
+        These icons can be found on fontawesome.com
+    -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="header-container">
+        <div class="logo" >
+            <a href="index.html"> 
+                <img id="logo" src="images/logo.png" alt="logo" />
+            </a>
+        </div>
+            <nav>
+                <input type="checkbox" id="checkbox1" />
+                <label for="checkbox1">
+                    <ul class="menu first">
+                        <li>
+                            <a  href="hours.html">Hours and Location</a>
+                        </li>
+                        <li>
+                            <a  href="menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="mobile-order-center">
+                            <div class="order-link-container">  
+                                <a class="order-item" href="order.html">
+                                    <p>Order</p>         
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="toggle">☰</span>
+                </label>
+            </nav>
+    </header>
+
+    <main>
+        <!-- This is the container to the header background picture -->
+        <div class="container">
+            <div id="header-photo-about">
+                
+                <h1 class="header-text" >About Us</h1>
+            </div>
+            <!-- Content -->
+            <div class="text-box">
+                
+                <p class="about-text" id="about-text-top">Joel's Bowls opened it's beach front doors in 2002. Ever since the beginning the mission has been simple, to serve the tastiest vegan bowls that anyone has ever had. We started with nothing but a couple employees commited to spread love through plant based foods. Early on, many people were still very skeptical about vegan food, but over the years our customer base has grown and we have introduced countless souls to the awesomeness of veganism.</p>
+                
+                <p class="about-text">We have not suffered our fair share of setbacks though. Our restaurant was destroyed in Hurricane Sandy and we were forced to rebuild from the ground up. This was when we realized what a difference we were making. Thanks to selfless donations from the community, we were able to afford to rebuild into something even bigger and better.</p>
+                
+                <p class="about-text">Bigger and better doesn't always mean rebuilding the same thing but bigger. Instead, we spent just what we needed on the rebuilding costs and put the extra money into something far better. With that money we purchased at a plot of land to open an animal sanctuary. Every dollar spent Joel's Bowls is matached and put into Joel's Animal Sanctuary. So next time, you are looking for a place to eat, come to Joel's Bowls where your meal makes a difference. </p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer-container">
+        <!--Social Icons-->
+        <div class="social-icons" >
+            <a id="github-icon" href="https://github.com/STEVEpartyof4" target="_blank" ><i class="fab fa-github-square fa-3x"></i></a>
+            <a id="linkedin-icon" href="https://www.linkedin.com/in/andrew-duda-7a4153149/" target="_blank" ><i class="fab fa-linkedin fa-3x"></i></a>
+            <a id="twitter-icon" href="https://twitter.com/STEVEpartyof4" target="_blank"> <i class="fab fa-twitter-square fa-3x"></i></a>
+        </div>
+    
+        <!--Location and Phone Number-->
+        <div class="footer-info" >
+            <ul>
+                <li><a class="footer-location" href="#" >1200 Ocean Ave. Asbury Park</a></li>
+                <li><a href="tel:+17325551234" >732-555-1234</a></li>
+            </ul>
+        </div>
+    
+    
+        </footer>
+</body>
+
+</html>
